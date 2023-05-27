@@ -40,7 +40,7 @@
 	background-color: rgb(53, 53, 144);
 	direction: ltr;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	font-style: normal;
 	font-weight: normal;
 	letter-spacing: 0px;
@@ -58,10 +58,10 @@
 	background-color: rgb(53, 53, 144);
 	direction: ltr;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	font-style: normal;
 	font-weight: normal;
-	letter-spacing: 8px;
+	letter-spacing: 10px;
 	line-height: 22px;
 	text-align: left;
 	text-decoration: none;
@@ -69,9 +69,11 @@
 	text-transform: none;
 	vertical-align: 0px;
 	padding: 5px;
+	padding-top: 20;
 }
 .leftBoxContainer{
     width: 90%; 
+	display: flex; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -80,31 +82,29 @@
     border: solid black; 
 	background-color: rgb(53, 53, 144);
     width: 20%; 
-    height: 420px; 
+    height: 600px; 
     position: left; 
     min-width: 250px;
 }
-
+.rightBox{ 
+	border: solid black; 
+	background-color: rgb(53, 53, 144);
+    width: 80%; 
+    height: 600px; 
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+}
 .leftBoxTextBox{
-    
-	
     width: 90%; 
     height: 425px; 
     margin-top: 12px; 
-
     margin-left: auto;
     margin-right: auto;
 }
-
-.leftPicInBox{
-
-}
-
-
 .imageAndAbout{
     width:42%;
 }
-
 #flexer{
     display:flex;
     justify-content: space-evenly;
@@ -115,4 +115,8 @@
 	background-image: linear-gradient(rgb(53, 53, 144), rgb(103, 103, 176));
 	color: white; 
 }
-
+.mainImage{
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+}
