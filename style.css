@@ -82,7 +82,7 @@
     border: solid black; 
 	background-color: rgb(53, 53, 144);
     width: 20%; 
-    height: 600px; 
+    height: 450px; 
     position: left; 
     min-width: 250px;
 }
@@ -90,7 +90,7 @@
 	border: solid black; 
 	background-color: rgb(53, 53, 144);
     width: 80%; 
-    height: 600px; 
+    height: 450px; 
 	display: flex; 
 	justify-content: center;
 	align-items: center;
@@ -116,7 +116,6 @@
 	color: white; 
 }
 .mainImage{
-	display: flex; 
-	justify-content: center;
-	align-items: center;
+	max-width: 90%;
+	max-height: 90%;
 }
