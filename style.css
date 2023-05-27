@@ -14,13 +14,12 @@
 }
 
 .sixButtons{
-    border: solid blue; 
-    background: solid gray; 
-
+    border: solid blue;  
 }
-
+/* https://www.rehabconstructionspecialists.com/about-us.html */
+/* coppied css for .menu from website */
 .menu{
-	color: #000000;
+	color: white;
 	direction: ltr;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	font-size: 14px;
@@ -37,7 +36,8 @@
 }
 
 .leftMenu{
-	color: #000000;
+	color: white;
+	background-color: rgb(53, 53, 144);
 	direction: ltr;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	font-size: 14px;
@@ -54,7 +54,8 @@
 }
 
 .leftMenuHead{
-    color: #000000;
+    color: white;
+	background-color: rgb(53, 53, 144);
 	direction: ltr;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	font-size: 18px;
@@ -76,7 +77,8 @@
 }
 
 .leftBox{
-    border: solid blue; 
+    border: solid black; 
+	background-color: rgb(53, 53, 144);
     width: 20%; 
     height: 420px; 
     position: left; 
@@ -85,7 +87,7 @@
 
 .leftBoxTextBox{
     
-  
+	
     width: 90%; 
     height: 425px; 
     margin-top: 12px; 
@@ -109,5 +111,8 @@
     width:90%;
     margin-left: auto;
     margin-right: auto;
+
+	background-image: linear-gradient(rgb(53, 53, 144), rgb(103, 103, 176));
+	color: white; 
 }
 
