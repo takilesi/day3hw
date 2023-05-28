@@ -87,13 +87,16 @@
     min-width: 250px;
 }
 .rightBox{ 
-	border: solid black; 
-	background-color: rgb(53, 53, 144);
+	border: solid white;
     width: 80%; 
     height: 450px; 
 	display: flex; 
 	justify-content: center;
 	align-items: center;
+}
+.mainImage{
+	max-width: 90%;
+	max-height: 90%;
 }
 .leftBoxTextBox{
     width: 90%; 
@@ -115,7 +118,27 @@
 	background-image: linear-gradient(rgb(53, 53, 144), rgb(103, 103, 176));
 	color: white; 
 }
-.mainImage{
-	max-width: 90%;
-	max-height: 90%;
+
+.flexy{
+	display: flex; 
+}
+.bottomFB{
+    border: solid white; 
+	height: 40px; 
+	width: 90%;
+	margin-left: auto;
+    margin-right: auto;
+}
+.icon{
+	height: 40px; 
+	width: 40px;
+}
+#putRight{
+	float: right;
+}
+.bottomText{
+	text-align: center;
+	line-height: 6px;
+	font-size: 12px;
+	color: rgb(53, 53, 144);
 }
